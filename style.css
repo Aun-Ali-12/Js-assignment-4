@@ -1,20 +1,21 @@
-body{
- display: flex;
- justify-content: center;
- align-items: center;
- height: 100vh;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .body {
   color: rgb(253, 177, 85);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 .body {
   display: flex;
   justify-content: center;
   background-color: blue;
   padding: 50px;
-  height: 50vh;
+  height: 55vh;
   width: 50vh;
   box-shadow: 3px 3px 2px grey;
 }
@@ -23,13 +24,22 @@ form {
   display: flex;
   flex-direction: column;
 }
-#btn{
- width: 70px;
- height: 30px;
- font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
- padding: 3px;
+#btn {
+  width: 70px;
+  height: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 3px;
 }
-#btn:hover{
+#btn:hover {
+  box-shadow: 0.5px 0.5px 3px rgb(231, 231, 231);
+}
 
-    box-shadow: 0.5px 0.5px 3px rgb(231, 231, 231);
+#result {
+  color: rgb(88, 51, 2);
+  background-color: rgb(253, 177, 85);
+  width: fit-content;
+  height: fit-content;
+  padding: 5px;
+  border-radius: 3px;
 }

@@ -1,7 +1,7 @@
-const myForm = document.querySelector("my-form");
-const firstNum = document.querySelector("num-1");
-const secNum = document.querySelector("num-2");
-const resultpara = document.querySelector("result");
+const myForm = document.querySelector("#my-form");
+const firstNum = document.querySelector("#num-1");
+const secNum = document.querySelector("#num-2");
+const resultpara = document.querySelector("#result");
 const btn = document.querySelector("#btn");
 
 myForm.addEventListener("submit", (event) => {
@@ -14,5 +14,5 @@ myForm.addEventListener("submit", (event) => {
   const sum = num1 + num2;
   console.log(sum);
 
-  resultpara.innerText = sum;
+  resultpara.innerText = `Addition of both values is: ${sum}`;
 });
